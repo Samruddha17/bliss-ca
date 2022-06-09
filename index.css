@@ -231,7 +231,6 @@
     padding: 0px 0px;
     /* cursor: grab; */
     background-color: white;
-
   }
   
   .cards {
@@ -262,11 +261,6 @@
     text-align: center;
     /* box-shadow: 1px 1px 20px #91919187; */
   }
-
-  .cardItem:hover{
-      /* border: 2px solid black; */
-  }
-
   
   .cardItem h3 {
     padding-top: 20px;
