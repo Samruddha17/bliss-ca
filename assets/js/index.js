@@ -92,7 +92,7 @@ function rightClick() {
 }
 
 //********************* */ Stop auto sliding on hover *************************
-var autoSliding = setInterval("autoSlider()", 5000);
+var autoSliding = setInterval("autoSlider()", 3000);
 
 document
   .getElementById("cards_container")
@@ -103,7 +103,7 @@ document
   .addEventListener("mouseout", autoSliderMouseOut);
 
 function autoSliderMouseOut() {
-  autoSliding = setInterval("autoSlider()", 5000);
+  autoSliding = setInterval("autoSlider()", 3000);
 }
 
 function autoSliderMouseOver() {
@@ -146,33 +146,3 @@ function onLoad() {
 setInterval(() => {
   onLoad();
 }, 500);
-
-// //********************* */ home products section **************************
-
-// document.getElementsByClassName("cards")[0].onmouseover = function (e) {
-//   const element = e.target;
-//   console.log(element.id);
-//   if (element.id) {
-//     element.classList.add("display_second");
-//     var source = `http://127.0.0.1:5500/assets/images/machine${element.id}_2.jpg`;
-//     console.log(source);
-//     element.src = source;
-//   }
-//   setTimeout(() => {
-//     element.classList.remove("display_second");
-//   }, 1500);
-// };
-
-// document.getElementsByClassName("cards")[0].onmouseout = function (e) {
-//   const element = e.target;
-//   console.log(element.id);
-//   if (element.id) {
-//     element.classList.add("display_second");
-//     var source = `http://127.0.0.1:5500/assets/images/machine${element.id}.jpg`;
-//     console.log(source);
-//     element.src = source;
-//   }
-//   setTimeout(() => {
-//     element.classList.remove("display_second");
-//   }, 1500);
-// };

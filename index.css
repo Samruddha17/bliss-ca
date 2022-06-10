@@ -41,7 +41,7 @@
 }
 
 .navbar-brand img{
-    width: 150px;
+    width: 125px;
     height: 40px;
     margin-left: 40px;
     margin-right: 20px;
@@ -65,6 +65,14 @@
     width: 80%;
 }
 
+.dropdown-item{
+  font-size: 19px;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+
 .top_nav_right {
     margin: auto;
     display: flex;
@@ -87,23 +95,7 @@
     height: 100vh;
 }
 
-/* .trib {
-  background: url("./assets/images/logo.jpg");
-  height: 100vh;
-  width: 100vw;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.trib p {
-  width: 300px;
-  text-align: center;
-} */
 
 .ParallaxVideo{
     width: 100%;
@@ -192,6 +184,7 @@
     top: 180px;
     font-size: 20px;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .second_image{
